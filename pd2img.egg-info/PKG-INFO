@@ -1,3 +1,22 @@
+Metadata-Version: 2.1
+Name: pd2img
+Version: 0.0.3
+Summary: Convert RGB/RGBA image files to pandas dataframes, and vice versa
+Home-page: UNKNOWN
+Author: hansalemao
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: UNKNOWN
+Keywords: pandas,opencv,images,dataframe,pd,np
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
 <p align="center"><a href="https://twitter.com/Aprender_alemao"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/twitter.png" alt="Twitter" title="Twitter" width="50"/></a><a href="https://www.facebook.com/estudaralemao/"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/facebook.png" alt="Facebook" title="Facebook" width="50"/></a><a href="https://www.instagram.com/estudaralemao/"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/instagram.png" alt="Instagram" title="Instagram" width="50"/></a><a href="https://www.youtube.com/c/wwwqueroestudaralemaocombr"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/youtube.png" alt="YouTube" title="YouTube" width="50"/></a><a href="https://api.whatsapp.com/send?phone=5511989782756&text=I%20want%20to%20know%20..."><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/whatsapp.png" alt="WhatsApp" title="WhatsApp" width="50"/></a><a href="https://www.queroestudaralemao.com.br"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/website.png" alt="WWW" title="WWW" width="50"/></a><a href="https://br.pinterest.com/chucrutehans/"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/pinterest.png" alt="Pinterest" title="Pinterest" width="50"/></a><a href="mailto:aulasparticularesdealemaosp@gmail.com?subject=I%20want%20to%20know%20...%20"><img src="https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/50px/mail.png" alt="E-Mail" title="E-Mail" width="50"/>
 </a>
 
@@ -15,15 +34,8 @@
 This package allows you to open image files and convert them to a pandas Dataframe
 After you are done with your work, you can save the dataframe as an Image
 
-
-
-
 ## how to use it
 ### Everything you need to know
-```
-pip install pd2img
-```
-
 ```
 from pd2img import Pd2Img
 df = Pd2Img(r"C:\Users\Gamer\Documents\Downloads\WhatsApp Image 2022-04-21 at 5.07.14 PM.jpeg")  # creating an instance
@@ -46,3 +58,5 @@ print(df.df)  # printing the dataframe
 1224958  956  1278  189    190   185
 1224959  956  1279  189    190   185
 ```
+
+

@@ -1,0 +1,8 @@
+README.md
+setup.py
+pd2img/__init__.py
+pd2img.egg-info/PKG-INFO
+pd2img.egg-info/SOURCES.txt
+pd2img.egg-info/dependency_links.txt
+pd2img.egg-info/requires.txt
+pd2img.egg-info/top_level.txt

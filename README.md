@@ -45,4 +45,10 @@ print(df.df)  # printing the dataframe
 1224957  956  1277  189    190   185
 1224958  956  1278  189    190   185
 1224959  956  1279  189    190   185
+
+#Messing around
+df.df.loc[(df.df.red > 130) & (df.df.green > 130) & (df.df.blue > 130), 'red'] = 255
+df.df.loc[(df.df.red > 130) & (df.df.green > 130) & (df.df.blue > 130), 'green'] = 255
+df.df.loc[(df.df.red > 130) & (df.df.green > 130) & (df.df.blue > 130), 'blue'] = 255
+
 ```
